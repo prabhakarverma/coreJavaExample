@@ -1,34 +1,29 @@
 package com.hashmapDemo;
-import java.util.*;
+
+import java.util.WeakHashMap;
+
 class WeakHashMapDemo
 {
-    public static void main(String args[])throws Exception
+    public static void main( String args[] ) throws Exception
     {
-    	//join thread example
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
+        //join thread example
+
         WeakHashMap m = new WeakHashMap();
         HDemo d = new HDemo();
-         
+
         // puts an entry into WeakHashMap
-        m.put(d," Hi "); 
-        System.out.println(m);
-         
+        m.put( d, " Hi " );
+        System.out.println( m );
+
         d = null;
-         
+
         // garbage collector is called
-        System.gc(); 
-         
+        System.gc();
+
         // thread sleeps for 4 sec
-       // Thread.sleep(4000); 
-         
-        System.out.println(m);
+        // Thread.sleep(4000);
+
+        System.out.println( m );
     }
 }
 
@@ -38,10 +33,10 @@ class HDemo
     {
         return "demo";
     }
-     
+
     // finalize method
     public void finalize()
     {
-        System.out.println("finalize method is called");
+        System.out.println( "finalize method is called" );
     }
 }

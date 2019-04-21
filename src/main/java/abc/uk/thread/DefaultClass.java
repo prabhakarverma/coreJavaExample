@@ -1,15 +1,17 @@
 package abc.uk.thread;
 
-public class DefaultClass {
-	
-	 void aa1() {
-		 
-		 
-	 }
+public class DefaultClass
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main( String[] args )
+    {
+        // TODO Auto-generated method stub
 
-	}
+    }
+
+    void aa1()
+    {
+
+    }
 
 }

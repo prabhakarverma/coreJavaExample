@@ -1,25 +1,27 @@
 package com.aaa.example;
-public class StringPool {
+
+public class StringPool
+{
 
     /**
      * Java String Pool example
+     *
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main( String[] args )
+    {
         String s1 = "Cat";
         String s2 = "Cat";
-        String s3 = new String("Cat");
-        System.out.println(s3.contains(s1));
-        
+        String s3 = new String( "Cat" );
+        System.out.println( s3.contains( s1 ) );
+
         //System.out.println("s1 == s2 :"+s1==s2);
         //System.out.println("s1 == s3 :"+(s1==s3));
-        
+
         Integer i1 = 10;
         Integer i2 = 10;
-        System.out.println(i1 == i2);
-        
-        
-        
+        System.out.println( i1 == i2 );
+
     }
 
 }

@@ -1,7 +1,8 @@
 package com.test.collection;
 
-public interface lemdaInterface {
+public interface lemdaInterface
+{
 
-	public void m1();
-	
+    public void m1();
+
 }

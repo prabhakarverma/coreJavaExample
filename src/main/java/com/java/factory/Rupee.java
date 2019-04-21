@@ -1,26 +1,33 @@
 package com.java.factory;
 
-interface Currency {
+interface Currency
+{
     String getSymbol();
 }
-public class Rupee implements Currency {
-       @Override
-       public String getSymbol() {
-              return "Rs";
-       }
-}
 
-class SGDDollar implements Currency {
+public class Rupee implements Currency
+{
     @Override
-    public String getSymbol() {
-           return "SGD";
+    public String getSymbol()
+    {
+        return "Rs";
     }
 }
 
-
-class USDollar implements Currency {
+class SGDDollar implements Currency
+{
     @Override
-    public String getSymbol() {
-           return "USD";
+    public String getSymbol()
+    {
+        return "SGD";
+    }
+}
+
+class USDollar implements Currency
+{
+    @Override
+    public String getSymbol()
+    {
+        return "USD";
     }
 }
