@@ -1,7 +1,5 @@
 package testing;
 
-import java.util.Objects;
-
 public class Test
 {
     private String name;
@@ -36,7 +34,7 @@ public class Test
     @Override
     public boolean equals( Object o )
     {
-        return  true;
+        return true;
     }
 
     @Override
