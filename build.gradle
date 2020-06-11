@@ -12,5 +12,6 @@ repositories {
 }
 
 dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
     compile group: 'joda-time', name: 'joda-time', version: '2.10'
 }
